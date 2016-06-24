@@ -5,7 +5,8 @@ FlowRouter.route('/', {
 });
 
 FlowRouter.route('/:postId', {
-  action: function() {
+  action: function(params) {
+  	console.log(params.postId);
     BlazeLayout.render("mainLayout", {content: "blogPost"});
   }
 });

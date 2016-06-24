@@ -1,9 +1,10 @@
 <template name="mainLayout">
   <header><h1>Kadira Blog</h1></header>
+  <p class="fs28 p1u">fs28</p>
   <main>
     {{>Template.dynamic template=content}}
   </main>
-  <footer>We love Meteor</footer>
+  {{> footer}}
 </template>
 
 <template name="blogHome">
