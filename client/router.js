@@ -1,12 +1,8 @@
+BlazeLayout.setRoot('body');
+// 首页
 FlowRouter.route('/', {
   action: function() {
-    BlazeLayout.render("mainLayout", {content: "blogHome"});
+    BlazeLayout.render("home");
   }
 });
 
-FlowRouter.route('/:postId', {
-  action: function(params) {
-  	console.log(params.postId);
-    BlazeLayout.render("mainLayout", {content: "blogPost"});
-  }
-});
