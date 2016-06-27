@@ -30,62 +30,73 @@ Template.home.helpers({
 			{
 				title: '园区概况',
 				subtitle: '关于园区',
-				img: '',
+				img: '../image/home/1.png',
 				url: ''
 			},
 			{
 				title: '重点项目',
 				subtitle: '建设状况',
-				img: '',
+				img: '../image/home/2.png',
 				url: ''
 			},
 			{
 				title: '招商服务',
 				subtitle: '服务内容',
-				img: '',
+				img: '../image/home/3.png',
 				url: ''
 			}
 		]
 	},
 
-	sixList: function() {
+	sixList1: function() {
 		return [
 			{
 				title: '新闻中心',
 				subtitle: '园区新闻',
-				img: '',
-				url: ''
-			},
-			{
-				title: '驻区企业',
-				subtitle: '企业前景',
-				img: '',
-				url: ''
+				img: '../image/home/01.png',
+				url: '',
+				color: 'c1'
 			},
 			{
 				title: '平台建设',
 				subtitle: '建设信息',
-				img: '',
-				url: ''
-			},{
-				title: '项目建设',
-				subtitle: '项目前景',
-				img: '',
-				url: ''
+				img: '../image/home/03.png',
+				url: '',
+				color: 'c3'
 			},
 			{
 				title: '关联园区',
 				subtitle: '园区信息',
-				img: '',
-				url: ''
+				img: '../image/home/05.png',
+				url: '',
+				color: 'c5'
+			}
+		]
+	},
+
+	sixList2: function() {
+		return [
+			{
+				title: '驻区企业',
+				subtitle: '企业前景',
+				img: '../image/home/02.png',
+				url: '',
+				color: 'c2'
+			},
+			{
+				title: '项目建设',
+				subtitle: '项目前景',
+				img: '../image/home/04.png',
+				url: '',
+				color: 'c4'
 			},
 			{
 				title: '关于我们',
 				subtitle: '联系我们',
-				img: '',
-				url: ''
+				img: '../image/home/06.png',
+				url: '',
+				color: 'c6'
 			}
-
 		]
 	}
 });
