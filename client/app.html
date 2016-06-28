@@ -1,14 +1,7 @@
 <!-- 首页 -->
 <template name="home">
   	<div id="home">
-		<section class="swiper">
-			<div style="background:url(image/home/banner1.png)"></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-		</section>
+		{{> swiper}}
 		<section class="news-list" flex="">
 			<div class="left-title dib" flex-box="0">
 				<p class="title">头条新闻</p>
@@ -70,9 +63,8 @@
 				{{/each}}
 			</ul>
 
-			<!-- dir:top box:mean -->
-
 		</section>
+		<div style="height: 1.4rem;"></div>
 
 	</div>
 	{{> footer}}
