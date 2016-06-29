@@ -1,5 +1,5 @@
 Template.topNav.events({
 	'click i': function () {
-		window.history.back(-1);
+		window.history.go(-1);
 	}
 });

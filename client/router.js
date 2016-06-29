@@ -100,7 +100,7 @@ FlowRouter.route('/ptjs/sdpt', {
 });
 
 //平台建设/了解四大平台/跨境电子商务
-FlowRouter.route('/ptjs/sdpt/kjdzsw', {
+FlowRouter.route('/ptjs/kjdzsw', {
   action: function() {
     BlazeLayout.render("mainLayout",{ content: "kjdzsw"});
   }
@@ -120,6 +120,14 @@ FlowRouter.route('/ptjs/hzqy', {
   }
 });
 
+//平台建设/合作企业/合作伙伴
+FlowRouter.route('/ptjs/hzhb', {
+  action: function() {
+    BlazeLayout.render("mainLayout",{ content: "hzhb"});
+  }
+});
+
+
 //平台建设/在线咨询 
 //直接 <a tel=""></a>
 
@@ -127,6 +135,13 @@ FlowRouter.route('/ptjs/hzqy', {
 FlowRouter.route('/xmjs', {
   action: function() {
     BlazeLayout.render("mainLayout",{ content: "xmjs"});
+  }
+});
+
+//项目建设 /发展计划
+FlowRouter.route('/xmjs/fzjh', {
+  action: function() {
+    BlazeLayout.render("mainLayout",{ content: "fzjh"});
   }
 });
 
@@ -161,7 +176,7 @@ FlowRouter.route('/glyq/gndw', {
 //关联园区/投资环境
 FlowRouter.route('/glyq/tzhj', {
   action: function() {
-    BlazeLayout.render("mainLayout",{ content: "gndw"});
+    BlazeLayout.render("mainLayout",{ content: "tzhj"});
   }
 });
 
