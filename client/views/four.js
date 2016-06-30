@@ -3,7 +3,7 @@ Template.sdpt.helpers({
 		return [
 			{
 				name: '跨境电子商务平台',
-				url: '',
+				url: '/ptjs/kjdzsw',
 				bg: '../image/four/bg1.png'
 			},
 			{

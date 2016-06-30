@@ -41,10 +41,17 @@ FlowRouter.route('/zsfw/xgzc', {
   }
 });
 
-//招商服务/相关政策/详情
+//招商服务/相关政策/政策详情
 FlowRouter.route('/zsfw/zcxq', {
   action: function() {
     BlazeLayout.render("mainLayout",{ content: "zcxq"});
+  }
+});
+
+//招商服务/相关政策/法规详情
+FlowRouter.route('/zsfw/fgxq', {
+  action: function() {
+    BlazeLayout.render("mainLayout",{ content: "fgxq"});
   }
 });
 
