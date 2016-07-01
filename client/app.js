@@ -94,7 +94,7 @@ Template.home.helpers({
 				title: '关于我们',
 				subtitle: '联系我们',
 				img: '../image/home/06.png',
-				url: '/',
+				url: '/aboutus',
 				color: 'c6'
 			}
 		]

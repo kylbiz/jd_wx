@@ -45,10 +45,11 @@ Template.tzhj.helpers({
 });
 
 Template.tzhj.events({
-	'click li': function (e) {
-		e.preventDefault();
+	'click .tabs': function (e) {
+		// e.preventDefault();
 		var li = e.currentTarget;
-		var index = $("li").index(li);
+		var index = $(".tabs").index(li);
+		// console.log(index)
 		$(".intro>div").eq(index).show().siblings().hide();
 	}
 });

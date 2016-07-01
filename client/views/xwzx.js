@@ -120,5 +120,11 @@ Template.xgzc.events({
 		// console.log(index);
 		$(li).addClass("active").siblings().removeClass("active");
 		$(".box .item").eq(index).show().siblings().hide();
+	},
+	'click .items': function(e) {
+		e.preventDefault;
+		var div = e.currentTarget;
+		var url = $(div).find("input").attr("value");
+		FlowRouter.go(url);
 	}
 });

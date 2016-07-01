@@ -27,6 +27,13 @@ FlowRouter.route('/zsfw', {
   }
 });
 
+//关于我们
+FlowRouter.route('/aboutus', {
+  action: function() {
+    BlazeLayout.render("mainLayout",{ content: "aboutus"});
+  }
+});
+
 //招商服务/招商项目
 FlowRouter.route('/zsfw/zsxm', {
   action: function() {

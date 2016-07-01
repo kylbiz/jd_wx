@@ -74,6 +74,10 @@ Template.navList.events({
 		FlowRouter.go(url);
 		$('#nav').hide();
 	},
+
+	'click #nav': function(e) {
+		$('#nav').hide();
+	}
 });
 
 

@@ -41,7 +41,7 @@ Template.tzlc.events({
 	'click li': function (e) {
 		e.preventDefault();
 		var li = e.currentTarget;
-		$(li).addClass("active").next("div").toggle(50);
+		$(li).addClass("active").next("div").toggle();
 
 	}
 });
@@ -52,7 +52,7 @@ Template.zclc.events({
 		e.preventDefault();
 		var li = e.currentTarget;
 		var index = $("li").index(li);
-		console.log(index);
+		// console.log(index);
 		$(li).addClass("active").siblings().removeClass("active");
 		$(".box img").eq(index).show().siblings().hide();
 	}
